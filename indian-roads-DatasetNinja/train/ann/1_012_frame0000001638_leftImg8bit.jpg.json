@@ -1,0 +1,132 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 8693428,
+            "tagId": 22835,
+            "name": "1_012",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:30.569Z",
+            "updatedAt": "2023-10-12T09:49:30.569Z"
+        }
+    ],
+    "size": {
+        "height": 720,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 71737340,
+            "classId": 6479072,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:30.570Z",
+            "updatedAt": "2023-10-12T09:49:30.570Z",
+            "tags": [],
+            "classTitle": "footpath",
+            "points": {
+                "exterior": [
+                    [
+                        8,
+                        316
+                    ],
+                    [
+                        66,
+                        280
+                    ],
+                    [
+                        55,
+                        256
+                    ],
+                    [
+                        190,
+                        218
+                    ],
+                    [
+                        330,
+                        193
+                    ],
+                    [
+                        476,
+                        196
+                    ],
+                    [
+                        200,
+                        453
+                    ],
+                    [
+                        28,
+                        719
+                    ],
+                    [
+                        1,
+                        718
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 71737339,
+            "classId": 6479071,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:30.569Z",
+            "updatedAt": "2023-10-12T09:49:30.569Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        200,
+                        471
+                    ],
+                    [
+                        478,
+                        203
+                    ],
+                    [
+                        551,
+                        134
+                    ],
+                    [
+                        621,
+                        78
+                    ],
+                    [
+                        639,
+                        60
+                    ],
+                    [
+                        716,
+                        58
+                    ],
+                    [
+                        800,
+                        80
+                    ],
+                    [
+                        1018,
+                        143
+                    ],
+                    [
+                        1273,
+                        256
+                    ],
+                    [
+                        1278,
+                        719
+                    ],
+                    [
+                        32,
+                        719
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 8692819,
+            "tagId": 22840,
+            "name": "2_006",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:00.866Z",
+            "updatedAt": "2023-10-12T09:49:00.866Z"
+        }
+    ],
+    "size": {
+        "height": 720,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 71735224,
+            "classId": 6479071,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:00.867Z",
+            "updatedAt": "2023-10-12T09:49:00.867Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        121,
+                        243
+                    ],
+                    [
+                        128,
+                        418
+                    ],
+                    [
+                        178,
+                        464
+                    ],
+                    [
+                        501,
+                        440
+                    ],
+                    [
+                        636,
+                        197
+                    ],
+                    [
+                        957,
+                        220
+                    ],
+                    [
+                        1012,
+                        105
+                    ],
+                    [
+                        1276,
+                        77
+                    ],
+                    [
+                        1266,
+                        716
+                    ],
+                    [
+                        632,
+                        719
+                    ],
+                    [
+                        0,
+                        719
+                    ],
+                    [
+                        0,
+                        250
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 71735223,
+            "classId": 6479072,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:00.867Z",
+            "updatedAt": "2023-10-12T09:49:00.867Z",
+            "tags": [],
+            "classTitle": "footpath",
+            "points": {
+                "exterior": [
+                    [
+                        9,
+                        239
+                    ],
+                    [
+                        139,
+                        172
+                    ],
+                    [
+                        75,
+                        150
+                    ],
+                    [
+                        4,
+                        182
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

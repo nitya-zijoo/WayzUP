@@ -1,0 +1,100 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 8692891,
+            "tagId": 22840,
+            "name": "2_006",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:04.113Z",
+            "updatedAt": "2023-10-12T09:49:04.113Z"
+        }
+    ],
+    "size": {
+        "height": 720,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 71735433,
+            "classId": 6479071,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:04.114Z",
+            "updatedAt": "2023-10-12T09:49:04.114Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        230,
+                        298
+                    ],
+                    [
+                        665,
+                        121
+                    ],
+                    [
+                        762,
+                        105
+                    ],
+                    [
+                        992,
+                        160
+                    ],
+                    [
+                        1112,
+                        197
+                    ],
+                    [
+                        1028,
+                        457
+                    ],
+                    [
+                        1015,
+                        719
+                    ],
+                    [
+                        13,
+                        719
+                    ],
+                    [
+                        0,
+                        244
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 71735432,
+            "classId": 6479071,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:04.114Z",
+            "updatedAt": "2023-10-12T09:49:04.114Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        1275,
+                        640
+                    ],
+                    [
+                        1221,
+                        719
+                    ],
+                    [
+                        1276,
+                        716
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 8693646,
+            "tagId": 22835,
+            "name": "1_012",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:43.710Z",
+            "updatedAt": "2023-10-12T09:49:43.710Z"
+        }
+    ],
+    "size": {
+        "height": 720,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 71738076,
+            "classId": 6479071,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:43.712Z",
+            "updatedAt": "2023-10-12T09:49:43.712Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        31,
+                        715
+                    ],
+                    [
+                        368,
+                        327
+                    ],
+                    [
+                        572,
+                        125
+                    ],
+                    [
+                        607,
+                        103
+                    ],
+                    [
+                        618,
+                        72
+                    ],
+                    [
+                        682,
+                        69
+                    ],
+                    [
+                        698,
+                        87
+                    ],
+                    [
+                        774,
+                        90
+                    ],
+                    [
+                        769,
+                        96
+                    ],
+                    [
+                        747,
+                        113
+                    ],
+                    [
+                        849,
+                        136
+                    ],
+                    [
+                        1068,
+                        199
+                    ],
+                    [
+                        1245,
+                        262
+                    ],
+                    [
+                        1277,
+                        288
+                    ],
+                    [
+                        1279,
+                        580
+                    ],
+                    [
+                        1279,
+                        719
+                    ],
+                    [
+                        22,
+                        716
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 71738075,
+            "classId": 6479073,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:43.711Z",
+            "updatedAt": "2023-10-12T09:49:43.711Z",
+            "tags": [],
+            "classTitle": "pothole",
+            "points": {
+                "exterior": [
+                    [
+                        1104,
+                        208
+                    ],
+                    [
+                        1254,
+                        264
+                    ],
+                    [
+                        1279,
+                        253
+                    ],
+                    [
+                        1279,
+                        206
+                    ],
+                    [
+                        1257,
+                        197
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

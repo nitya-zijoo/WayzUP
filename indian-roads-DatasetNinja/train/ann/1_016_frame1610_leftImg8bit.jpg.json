@@ -1,0 +1,228 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 8693694,
+            "tagId": 22836,
+            "name": "1_016",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:46.408Z",
+            "updatedAt": "2023-10-12T09:49:46.408Z"
+        }
+    ],
+    "size": {
+        "height": 720,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 71738201,
+            "classId": 6479071,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:46.411Z",
+            "updatedAt": "2023-10-12T09:49:46.411Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        230,
+                        714
+                    ],
+                    [
+                        437,
+                        531
+                    ],
+                    [
+                        596,
+                        394
+                    ],
+                    [
+                        549,
+                        386
+                    ],
+                    [
+                        543,
+                        376
+                    ],
+                    [
+                        603,
+                        344
+                    ],
+                    [
+                        634,
+                        327
+                    ],
+                    [
+                        653,
+                        318
+                    ],
+                    [
+                        680,
+                        315
+                    ],
+                    [
+                        750,
+                        306
+                    ],
+                    [
+                        748,
+                        327
+                    ],
+                    [
+                        893,
+                        325
+                    ],
+                    [
+                        889,
+                        341
+                    ],
+                    [
+                        945,
+                        365
+                    ],
+                    [
+                        1010,
+                        397
+                    ],
+                    [
+                        1165,
+                        447
+                    ],
+                    [
+                        1279,
+                        474
+                    ],
+                    [
+                        1277,
+                        719
+                    ],
+                    [
+                        1103,
+                        719
+                    ],
+                    [
+                        888,
+                        719
+                    ],
+                    [
+                        671,
+                        719
+                    ],
+                    [
+                        450,
+                        719
+                    ],
+                    [
+                        258,
+                        719
+                    ],
+                    [
+                        218,
+                        719
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 71738200,
+            "classId": 6479072,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:46.410Z",
+            "updatedAt": "2023-10-12T09:49:46.410Z",
+            "tags": [],
+            "classTitle": "footpath",
+            "points": {
+                "exterior": [
+                    [
+                        588,
+                        398
+                    ],
+                    [
+                        513,
+                        387
+                    ],
+                    [
+                        435,
+                        441
+                    ],
+                    [
+                        325,
+                        515
+                    ],
+                    [
+                        135,
+                        658
+                    ],
+                    [
+                        68,
+                        719
+                    ],
+                    [
+                        218,
+                        719
+                    ],
+                    [
+                        339,
+                        619
+                    ],
+                    [
+                        448,
+                        524
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 71738199,
+            "classId": 6479072,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:46.409Z",
+            "updatedAt": "2023-10-12T09:49:46.409Z",
+            "tags": [],
+            "classTitle": "footpath",
+            "points": {
+                "exterior": [
+                    [
+                        1277,
+                        439
+                    ],
+                    [
+                        1143,
+                        409
+                    ],
+                    [
+                        1037,
+                        391
+                    ],
+                    [
+                        981,
+                        383
+                    ],
+                    [
+                        1085,
+                        426
+                    ],
+                    [
+                        1188,
+                        452
+                    ],
+                    [
+                        1275,
+                        470
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,156 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 8693397,
+            "tagId": 22835,
+            "name": "1_012",
+            "value": null,
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:29.142Z",
+            "updatedAt": "2023-10-12T09:49:29.142Z"
+        }
+    ],
+    "size": {
+        "height": 720,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "id": 71737250,
+            "classId": 6479073,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:29.143Z",
+            "updatedAt": "2023-10-12T09:49:29.143Z",
+            "tags": [],
+            "classTitle": "pothole",
+            "points": {
+                "exterior": [
+                    [
+                        5,
+                        715
+                    ],
+                    [
+                        167,
+                        513
+                    ],
+                    [
+                        499,
+                        190
+                    ],
+                    [
+                        449,
+                        202
+                    ],
+                    [
+                        301,
+                        333
+                    ],
+                    [
+                        113,
+                        496
+                    ],
+                    [
+                        2,
+                        624
+                    ],
+                    [
+                        2,
+                        719
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 71737249,
+            "classId": 6479071,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-12T09:49:29.142Z",
+            "updatedAt": "2023-10-12T09:49:29.142Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        4,
+                        716
+                    ],
+                    [
+                        7,
+                        718
+                    ],
+                    [
+                        494,
+                        198
+                    ],
+                    [
+                        571,
+                        111
+                    ],
+                    [
+                        603,
+                        89
+                    ],
+                    [
+                        604,
+                        55
+                    ],
+                    [
+                        651,
+                        56
+                    ],
+                    [
+                        666,
+                        79
+                    ],
+                    [
+                        719,
+                        80
+                    ],
+                    [
+                        737,
+                        93
+                    ],
+                    [
+                        713,
+                        91
+                    ],
+                    [
+                        701,
+                        104
+                    ],
+                    [
+                        745,
+                        117
+                    ],
+                    [
+                        1053,
+                        216
+                    ],
+                    [
+                        1060,
+                        226
+                    ],
+                    [
+                        1101,
+                        232
+                    ],
+                    [
+                        1277,
+                        302
+                    ],
+                    [
+                        1275,
+                        719
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+Flask==3.0.0
+flask-cors==4.0.0
+geopy==2.4.1
+Werkzeug==3.0.1
+mysql-connector-python==9.0.0
+inference-sdk==1.0.0
+
+# Optional, not strictly required since we use a local haversine implementation
+# geopy==2.4.1
+
+

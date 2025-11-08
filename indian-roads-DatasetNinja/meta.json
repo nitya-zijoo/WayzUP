@@ -1,0 +1,102 @@
+{
+    "classes": [
+        {
+            "title": "road",
+            "shape": "polygon",
+            "color": "#D0021B",
+            "geometry_config": {},
+            "id": 6479071,
+            "hotkey": ""
+        },
+        {
+            "title": "footpath",
+            "shape": "polygon",
+            "color": "#00D1FF",
+            "geometry_config": {},
+            "id": 6479072,
+            "hotkey": ""
+        },
+        {
+            "title": "pothole",
+            "shape": "polygon",
+            "color": "#F8E71C",
+            "geometry_config": {},
+            "id": 6479073,
+            "hotkey": ""
+        },
+        {
+            "title": "shallow",
+            "shape": "polygon",
+            "color": "#D60BFF",
+            "geometry_config": {},
+            "id": 6479074,
+            "hotkey": ""
+        }
+    ],
+    "tags": [
+        {
+            "name": "1_005",
+            "value_type": "none",
+            "color": "#110F8A",
+            "id": 22834,
+            "hotkey": "",
+            "applicable_type": "all",
+            "classes": []
+        },
+        {
+            "name": "1_007",
+            "value_type": "none",
+            "color": "#488A0F",
+            "id": 22838,
+            "hotkey": "",
+            "applicable_type": "all",
+            "classes": []
+        },
+        {
+            "name": "1_012",
+            "value_type": "none",
+            "color": "#8A1A0F",
+            "id": 22835,
+            "hotkey": "",
+            "applicable_type": "all",
+            "classes": []
+        },
+        {
+            "name": "1_016",
+            "value_type": "none",
+            "color": "#7B8A0F",
+            "id": 22836,
+            "hotkey": "",
+            "applicable_type": "all",
+            "classes": []
+        },
+        {
+            "name": "1_017",
+            "value_type": "none",
+            "color": "#0F778A",
+            "id": 22839,
+            "hotkey": "",
+            "applicable_type": "all",
+            "classes": []
+        },
+        {
+            "name": "1_018",
+            "value_type": "none",
+            "color": "#520F8A",
+            "id": 22837,
+            "hotkey": "",
+            "applicable_type": "all",
+            "classes": []
+        },
+        {
+            "name": "2_006",
+            "value_type": "none",
+            "color": "#298A0F",
+            "id": 22840,
+            "hotkey": "",
+            "applicable_type": "all",
+            "classes": []
+        }
+    ],
+    "projectType": "images"
+}
