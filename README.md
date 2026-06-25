@@ -1,34 +1,37 @@
-🚨 WayzUp – Community Hazard Alert System
+# 🚨 WayzUp – Community Hazard Alert System
 
-<div align="center">
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-2.x-black?style=for-the-badge&logo=flask)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-A full-stack civic-tech app for crowd-sourced road hazard reporting with real-time geospatial verification.
 
-Features · Architecture · Getting Started · API Reference · Future Work
+**A full-stack civic-tech app for crowd-sourced road hazard reporting with real-time geospatial verification.**
 
-</div>
+[Features](#-features) · [Architecture](#-architecture) · [Getting Started](#-getting-started) · [API Reference](#-api-reference) · [Future Work](#-future-work)
 
-📌 Problem Statement
+---
 
-Road hazards — flooded underpasses, fallen trees, potholes, accidents — cause thousands of injuries annually in India. There's no fast, community-driven way to report and verify them in real time. WayzUp solves this.
+## 📌 Problem Statement
 
+Road hazards — flooded underpasses, fallen trees, potholes, accidents — cause thousands of injuries annually in India. There is no fast, community-driven way to report and verify them in real time. **WayzUp** solves this.
+
+---
 
 ## ✨ Features
 
-- 📍 **Hazard Reporting** — Submit road hazard reports with description, image, and GPS coordinates  
-- ✅ **Crowd Verification** — Automatically marks a hazard as verified when a second report is filed within 100 metres (Haversine formula)  
-- 🗺️ **Live Hazard Map** — Interactive Folium map with red markers for all verified hazards  
-- 🖼️ **Image Upload** — Attach photos directly to hazard reports  
-- 🔧 **Admin Dashboard** — View all reports (verified + unverified), delete invalid entries  
+- 📍 **Hazard Reporting** — Submit road hazard reports with description, image, and GPS coordinates
+- ✅ **Crowd Verification** — Automatically marks a hazard as verified when a second report is filed within 100 metres (Haversine formula)
+- 🗺️ **Live Hazard Map** — Interactive Folium map with red markers for all verified hazards
+- 🖼️ **Image Upload** — Attach photos directly to hazard reports
+- 🔧 **Admin Dashboard** — View all reports (verified + unverified), delete invalid entries
 - 📡 **REST API** — Clean Flask backend with 4 endpoints for full CRUD support
 
+---
 
 ## 🏗️ Architecture
 
+```
 User submits report (Streamlit)
         │
         ▼
@@ -43,10 +46,13 @@ POST /report (Flask)
                 │
                 ▼
         Folium map renders red markers with popup info
+```
 
+---
 
 ## 📁 Project Structure
 
+```
 wayzup/
 │
 ├── backend/
@@ -60,61 +66,68 @@ wayzup/
 │   └── requirements.txt
 │
 └── README.md
+```
 
+---
 
 ## 🚀 Getting Started
 
-Prerequisites
+### Prerequisites
 
+- Python 3.9+
+- pip
 
-Python 3.9+
-pip
+### 1. Clone the Repository
 
-
-1. Clone the Repository
-
-bashgit clone https://github.com/nitya-zijoo/WayzUP.git
+```bash
+git clone https://github.com/nitya-zijoo/WayzUP.git
 cd WayzUP
+```
 
-2. Start the Backend (Flask)
+### 2. Start the Backend (Flask)
 
-bashcd backend
+```bash
+cd backend
 pip install -r requirements.txt
 python app.py
+```
 
+Runs on → `http://127.0.0.1:5000`
 
-Runs on → http://127.0.0.1:5000
+### 3. Start the Frontend (Streamlit)
 
-
-
-3. Start the Frontend (Streamlit)
-
-bashcd frontend
+```bash
+cd frontend
 pip install -r requirements.txt
 streamlit run app_frontend.py
+```
 
+Runs on → `http://localhost:8501`
 
-Runs on → http://localhost:8501
-
-
-
+---
 
 ## 📡 API Reference
 
-MethodEndpointDescriptionPOST/reportSubmit a new hazard reportGET/hazardsFetch all verified hazardsGET/all_hazardsFetch all hazards (admin only)DELETE/hazard/<id>Delete a hazard by ID (admin only)
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/report` | Submit a new hazard report |
+| `GET` | `/hazards` | Fetch all verified hazards |
+| `GET` | `/all_hazards` | Fetch all hazards (admin only) |
+| `DELETE` | `/hazard/<id>` | Delete a hazard by ID (admin only) |
 
-Example Responses
+### Example: POST `/report`
 
-POST /report
-
-json{
+```json
+{
   "message": "Hazard reported successfully!",
   "verified": false
 }
+```
 
-GET /hazards
+### Example: GET `/hazards`
 
-json[
+```json
+[
   {
     "id": 1,
     "description": "Flooded underpass near City Mall",
@@ -124,46 +137,61 @@ json[
     "verified": true
   }
 ]
+```
 
+---
 
 ## 🛠️ Tech Stack
 
-LayerTechnologyFrontendStreamlitBackendFlask (Python)DatabaseSQLiteMapsFolium + streamlit-foliumGeospatialgeopy (Haversine distance)Image StorageLocal /uploads folder
+| Layer | Technology |
+|-------|------------|
+| Frontend | Streamlit |
+| Backend | Flask (Python) |
+| Database | SQLite |
+| Maps | Folium + streamlit-folium |
+| Geospatial | geopy (Haversine distance) |
+| Image Storage | Local `/uploads` folder |
 
+---
+
+## 📸 Screenshots
+
+> Add a screenshot of the Folium map with hazard markers here.
+> Example: `![Map View](screenshots/map.png)`
+
+---
 
 ## 🔮 Future Work
 
+- [ ] Replace SQLite with PostgreSQL for production scalability
+- [ ] Add JWT-based authentication for the admin dashboard
+- [ ] Integrate reverse geocoding to auto-fill area names from coordinates
+- [ ] Push notifications when a hazard near the user gets verified
+- [ ] Deploy backend on Railway / Render; frontend on Streamlit Cloud
+- [ ] Add severity classification (low / medium / high) using image ML model
 
- Replace SQLite with PostgreSQL for production scalability
- Add JWT-based authentication for the admin dashboard
- Integrate reverse geocoding to auto-fill area names from coordinates
- Push notifications when a hazard near the user gets verified
- Deploy backend on Railway / Render; frontend on Streamlit Cloud
- Add severity classification (low / medium / high) using image ML model
-
-
+---
 
 ## 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+---
 
-# 📄 License
+## 📄 License
 
-This project is licensed under the MIT License. See LICENSE for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
+---
 
-#👩‍💻 Author
+## 👩‍💻 Author
 
-Nitya Zijoo
-
+**Nitya Zijoo**
 B.Tech CSIT '27 | Data Engineering & ML
 
-Show Image
-Show Image
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nitya--zijoo-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/nitya-zijoo/)
+[![GitHub](https://img.shields.io/badge/GitHub-nitya--zijoo-181717?style=flat&logo=github)](https://github.com/nitya-zijoo)
 
+---
 
-<div align="center">
 ⭐ If you found this useful, consider starring the repo!
-</div>
-
