@@ -1,13 +1,11 @@
 🚨 WayzUp – Community Hazard Alert System
 
 <div align="center">
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-2.x-black?style=for-the-badge&logo=flask)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 A full-stack civic-tech app for crowd-sourced road hazard reporting with real-time geospatial verification.
 
 Features · Architecture · Getting Started · API Reference · Future Work
@@ -19,19 +17,17 @@ Features · Architecture · Getting Started · API Reference · Future Work
 Road hazards — flooded underpasses, fallen trees, potholes, accidents — cause thousands of injuries annually in India. There's no fast, community-driven way to report and verify them in real time. WayzUp solves this.
 
 
-✨ Features
+## ✨ Features
+
+- 📍 **Hazard Reporting** — Submit road hazard reports with description, image, and GPS coordinates  
+- ✅ **Crowd Verification** — Automatically marks a hazard as verified when a second report is filed within 100 metres (Haversine formula)  
+- 🗺️ **Live Hazard Map** — Interactive Folium map with red markers for all verified hazards  
+- 🖼️ **Image Upload** — Attach photos directly to hazard reports  
+- 🔧 **Admin Dashboard** — View all reports (verified + unverified), delete invalid entries  
+- 📡 **REST API** — Clean Flask backend with 4 endpoints for full CRUD support
 
 
-📍 Hazard Reporting — Submit road hazard reports with description, image, and GPS coordinates
-✅ Crowd Verification — Automatically marks a hazard as verified when a second report is filed within 100 metres (Haversine formula)
-🗺️ Live Hazard Map — Interactive Folium map with red markers for all verified hazards
-🖼️ Image Upload — Attach photos directly to hazard reports
-🔧 Admin Dashboard — View all reports (verified + unverified), delete invalid entries
-📡 REST API — Clean Flask backend with 4 endpoints for full CRUD support
-
-
-
-🏗️ Architecture
+## 🏗️ Architecture
 
 User submits report (Streamlit)
         │
@@ -49,7 +45,7 @@ POST /report (Flask)
         Folium map renders red markers with popup info
 
 
-📁 Project Structure
+## 📁 Project Structure
 
 wayzup/
 │
@@ -66,7 +62,7 @@ wayzup/
 └── README.md
 
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 Prerequisites
 
@@ -103,7 +99,7 @@ Runs on → http://localhost:8501
 
 
 
-📡 API Reference
+## 📡 API Reference
 
 MethodEndpointDescriptionPOST/reportSubmit a new hazard reportGET/hazardsFetch all verified hazardsGET/all_hazardsFetch all hazards (admin only)DELETE/hazard/<id>Delete a hazard by ID (admin only)
 
@@ -130,20 +126,12 @@ json[
 ]
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 LayerTechnologyFrontendStreamlitBackendFlask (Python)DatabaseSQLiteMapsFolium + streamlit-foliumGeospatialgeopy (Haversine distance)Image StorageLocal /uploads folder
 
 
-📸 Screenshots
-
-
-(Add screenshots of the Folium map with hazard markers and the Report Hazard form here)
-
-
-
-
-🔮 Future Work
+## 🔮 Future Work
 
 
  Replace SQLite with PostgreSQL for production scalability
@@ -155,17 +143,17 @@ LayerTechnologyFrontendStreamlitBackendFlask (Python)DatabaseSQLiteMapsFolium + 
 
 
 
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
 
-📄 License
+# 📄 License
 
 This project is licensed under the MIT License. See LICENSE for details.
 
 
-👩‍💻 Author
+#👩‍💻 Author
 
 Nitya Zijoo
 
